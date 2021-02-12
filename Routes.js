@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
+// These components do not exist in this repo however using this as an example
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Faq from './Faq'
-import Help from './Help.js'
+import Help from './Help'
 
 
 class Routes extends React.Component {
@@ -22,9 +24,3 @@ class Routes extends React.Component {
     }
 };
 export default Routes;
-
-<Link to='/home'><li>Home</li></Link>
-<Link to={'/about'}><li>About</li></Link>
-<Link to={'/contact'}><li>contact</li></Link>
-<Link to={'/faq'}><li>faq</li></Link>
-<Link to={'/help'}><li>Help</li></Link>

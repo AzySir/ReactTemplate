@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 class Nav extends Component {  
   render() {
     return (
-        // <div className="container">
             <div className="nav">
                 <div className="nav_logo">
                     <li><img src={require('./assets/logo.png')} height="80" width="180"/></li>
@@ -16,8 +15,6 @@ class Nav extends Component {
                     <Link to={'/faq'}><li>faq</li></Link>
                     <Link to={'/help'}><li>Help</li></Link>
             </div>
-        // </div>
-        
     );
   }
 }
